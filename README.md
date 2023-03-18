@@ -15,6 +15,7 @@ template&nbsp;(or a slightly modified variant of it):
 - S. Almasian, [Learning Joint Vector Representations of Words and Named Entities](https://github.com/satya77/Thesis_Entity_Embeddings/blob/master/MasterThesis_SatyaAlmasian.pdf), M.Sc.&thinsp;thesis, Heidelberg University, 2018
 - E. Angriman, [Scalable Algorithms for the Analysis of Massive Networks](https://edoc.hu-berlin.de/handle/18452/25013), Ph.D.&thinsp;thesis, Humboldt University of Berlin, 2022
 - C. Bock, [Motifs and Manifolds: Statistical and Topological Machine Learning for Characterising and Classifying Biomedical Time Series](https://www.research-collection.ethz.ch/handle/20.500.11850/524042), Ph.D.&thinsp;thesis, ETH Zurich, 2021
+- A. Coín, [Bayesian RKHS-based methods in functional regression](https://github.com/antcc/tfm/releases/download/v1.1/masters-thesis.pdf), M.Sc.&thinsp;thesis, Autonomous University of Madrid, 2022
 - K. Hanser, [Visualization of Coherence in Meteorological Data](https://github.com/hanserK/master_thesis/blob/master/Thesis_Karsten_Hanser.pdf), M.Sc.&thinsp;thesis, Heidelberg University, 2018
 - M. Moor, [Machine Learning on Clinical Time Series: Classification and Representation
   Learning](https://www.research-collection.ethz.ch/handle/20.500.11850/532377), Ph.D.&thinsp;thesis, ETH Zurich, 2022
@@ -316,7 +317,11 @@ please let me know!
    \captionsetup{subrefformat=parens,format=plain}
    ```
    For details see [here](https://latex-tutorial.com/caption-customization-latex/).
-   
+
+7. How can I update the font size of citations? \
+   \
+   Check out `bibliography-mimosis.tex` and update or remove
+   the `\renewcommand*{\citesetup}` block to your preference.
 
 # Contributing
 
@@ -354,6 +359,7 @@ Here is a list of contributors:
 - [Miloslav Číž (drummyfish)](https://github.com/drummyfish): grammar/style corrections for `README` file
 - [Michaël Defferrard (mdeff)](https://github.com/mdeff): matching fonts for mathematics and text
 - [Holger Dell (holgerdell)](https://github.com/holgerdell): numerous simplifications of the main template; compatibility updates; automated publishing workflow
+- [Florian Graf (f-graf)](https://github.com/f-graf): numerous font style and font size improvements
 - [Bastian Rieck (Pseudomanifold)](https://github.com/Pseudomanifold): original creator and maintainer
 - [Diego A. Rodriquez (diarodriguezva)](https://github.com/diarodriguezv): support with `ebgaramond` updates
 - [TonyY](https://github.com/toooonyy): `latexmkrc` updates and fixes; `hyperref` fixes
